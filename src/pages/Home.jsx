@@ -1,4 +1,5 @@
 import React from 'react'
+import { Container, PostCard } from '../components/index'
 
 function Home() {
   return (
