@@ -10,7 +10,7 @@ export default function RTE({name, control, label, defaultValue = ''}) {
         <Controller
         name={name || 'content'}
         control={control}
-        render={({ filed: {onchange}}) => (
+        render={({ filed: {onChange}}) => (
             <Editor 
             initialValue={defaultValue}
             init={{
@@ -44,7 +44,7 @@ export default function RTE({name, control, label, defaultValue = ''}) {
                 content_style: "body { font-family:Helvetica,Arial,sans-serif; font-size:14px }"
                     
             }}
-            onEditorChange={onchange}
+            onEditorChange={onChange}
             />
         )}
         />      
