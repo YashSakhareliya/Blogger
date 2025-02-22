@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { login as authLogin } from '../store/authSlice'
-import { useDispatch } from 'react-redux'
+import { useDispatch, useSelector } from 'react-redux'
 import authService from '../appwrite/auth'
 import { useForm } from 'react-hook-form'
 import { Button, Input, Logo } from './index'
@@ -13,21 +13,20 @@ function Login() {
     const { register, handleSubmit } = useForm();
     const [error, setError] = React.useState("");
 
-    const login = async (data) => {
-        setError("");
+    const login = async(data) => {
+        setError("")
         try {
-            
             const session = await authService.login(data)
-
             if (session) {
                 const userData = await authService.getCurrentUser()
                 if(userData) dispatch(authLogin(userData));
                 navigate("/")
             }
-        } catch (err) {
-            setError(err.message);
+        } catch (error) {
+            setError(error.message)
         }
     }
+
     return (
         <div
         className='flex items-center justify-center w-full'
