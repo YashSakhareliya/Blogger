@@ -11,23 +11,24 @@ This project was created and is maintained by **Yash Sakhareliya**. Contribution
 ---  
 
 ## Features  
-- **Rich Text Editing**: Powered by TinyMCE for a seamless writing experience.  
-- **Responsive UI**: Built with React for a smooth and interactive user interface.  
-- **State Management**: Managed efficiently with Redux Toolkit and React Redux.  
-- **Routing**: Handled by React Router for effortless navigation.  
-- **Form Handling**: Simplified with React Hook Form and validated for a better user experience.  
-- **HTML Parsing**: Uses HTML React Parser to render dynamic content safely.  
+- **📝 Rich Text Editing**: Powered by TinyMCE for a seamless writing experience.  
+- **💻 Responsive UI**: Built with React for a smooth and interactive user interface.  
+- **🗂️ State Management**: Managed efficiently with Redux Toolkit and React Redux.  
+- **🔀 Routing**: Handled by React Router for effortless navigation.  
+- **📑 Form Handling**: Simplified with React Hook Form and validated for a better user experience.  
+- **🔍 HTML Parsing**: Uses HTML React Parser to render dynamic content safely.  
 
 ---  
 
 ## Tech Stack & Dependencies  
 Blogger relies on the following dependencies:  
-- **[React](https://reactjs.org/)** & **[React DOM](https://reactjs.org/)** - For building the user interface.  
-- **[Redux Toolkit](https://redux-toolkit.js.org/)** & **[React Redux](https://react-redux.js.org/)** - For efficient state management.  
-- **[React Router](https://reactrouter.com/)** - For client-side routing.  
-- **[TinyMCE](https://www.tiny.cloud/)** - For rich text editing capabilities.  
-- **[HTML React Parser](https://www.npmjs.com/package/html-react-parser)** - For parsing HTML strings into React components.  
-- **[React Hook Form](https://react-hook-form.com/)** - For managing form state and validation.  
+
+- ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge) **[React](https://reactjs.org/)** & ![React DOM](https://img.shields.io/badge/React%20DOM-61DAFB?logo=react&logoColor=white&style=for-the-badge) **[React DOM](https://reactjs.org/)** - For building the user interface.  
+- ![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge) **[Redux Toolkit](https://redux-toolkit.js.org/)** & **[React Redux](https://react-redux.js.org/)** - For efficient state management.  
+- ![React Router](https://img.shields.io/badge/React%20Router-CA4245?logo=react-router&logoColor=white&style=for-the-badge) **[React Router](https://reactrouter.com/)** - For client-side routing.  
+- ![TinyMCE](https://img.shields.io/badge/TinyMCE-0078D4?logo=tinyMCE&logoColor=white&style=for-the-badge) **[TinyMCE](https://www.tiny.cloud/)** - For rich text editing capabilities.  
+- ![HTML React Parser](https://img.shields.io/badge/HTML%20React%20Parser-F16529?logo=html5&logoColor=white&style=for-the-badge) **[HTML React Parser](https://www.npmjs.com/package/html-react-parser)** - For parsing HTML strings into React components.  
+- ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?logo=reacthookform&logoColor=white&style=for-the-badge) **[React Hook Form](https://react-hook-form.com/)** - For managing form state and validation.  
 
 ---  
 
