@@ -17,6 +17,7 @@ This project was created and is maintained by **Yash Sakhareliya**. Contribution
 - **🔀 Routing**: Handled by React Router for effortless navigation.  
 - **📑 Form Handling**: Simplified with React Hook Form and validated for a better user experience.  
 - **🔍 HTML Parsing**: Uses HTML React Parser to render dynamic content safely.  
+- **☁️ Backend Services**: Managed with Appwrite for authentication, database, and storage.  
 
 ---  
 
@@ -33,6 +34,7 @@ Blogger relies on the following technologies:
 | [HTML React Parser](https://www.npmjs.com/package/html-react-parser) | HTML parsing in React | ![HTML React Parser](https://img.shields.io/badge/HTML%20React%20Parser-F16529?logo=html5&logoColor=white&style=for-the-badge) |
 | [React Hook Form](https://react-hook-form.com/) | Form management | ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?logo=reacthookform&logoColor=white&style=for-the-badge) |
 | [npm](https://www.npmjs.com/) | Package manager | ![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=for-the-badge) |
+| [Appwrite](https://appwrite.io/) | Backend services (auth, database, storage) | ![Appwrite](https://img.shields.io/badge/Appwrite-F02E65?logo=appwrite&logoColor=white&style=for-the-badge) |
 
 ---  
 
@@ -59,7 +61,7 @@ Blogger relies on the following technologies:
    ```bash  
    npm start  
    ```  
-5. Open your browser and visit [http://localhost:5173](http://localhost:5173) to see Blogger in action!  
+5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see Blogger in action!  
 
 ---  
 
