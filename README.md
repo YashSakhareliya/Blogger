@@ -21,14 +21,18 @@ This project was created and is maintained by **Yash Sakhareliya**. Contribution
 ---  
 
 ## Tech Stack & Dependencies  
-Blogger relies on the following dependencies:  
+Blogger relies on the following technologies:  
 
-- ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge) **[React](https://reactjs.org/)** & ![React DOM](https://img.shields.io/badge/React%20DOM-61DAFB?logo=react&logoColor=white&style=for-the-badge) **[React DOM](https://reactjs.org/)** - For building the user interface.  
-- ![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge) **[Redux Toolkit](https://redux-toolkit.js.org/)** & **[React Redux](https://react-redux.js.org/)** - For efficient state management.  
-- ![React Router](https://img.shields.io/badge/React%20Router-CA4245?logo=react-router&logoColor=white&style=for-the-badge) **[React Router](https://reactrouter.com/)** - For client-side routing.  
-- ![TinyMCE](https://img.shields.io/badge/TinyMCE-0078D4?logo=tinyMCE&logoColor=white&style=for-the-badge) **[TinyMCE](https://www.tiny.cloud/)** - For rich text editing capabilities.  
-- ![HTML React Parser](https://img.shields.io/badge/HTML%20React%20Parser-F16529?logo=html5&logoColor=white&style=for-the-badge) **[HTML React Parser](https://www.npmjs.com/package/html-react-parser)** - For parsing HTML strings into React components.  
-- ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?logo=reacthookform&logoColor=white&style=for-the-badge) **[React Hook Form](https://react-hook-form.com/)** - For managing form state and validation.  
+| Technology | Description | Icon |
+|------------|-------------|------|
+| [React](https://reactjs.org/) | UI Library | ![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=white&style=for-the-badge) |
+| [React DOM](https://reactjs.org/) | DOM rendering | ![React DOM](https://img.shields.io/badge/React%20DOM-61DAFB?logo=react&logoColor=white&style=for-the-badge) |
+| [Redux Toolkit](https://redux-toolkit.js.org/) | State management | ![Redux](https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white&style=for-the-badge) |
+| [React Router](https://reactrouter.com/) | Client-side routing | ![React Router](https://img.shields.io/badge/React%20Router-CA4245?logo=react-router&logoColor=white&style=for-the-badge) |
+| [TinyMCE](https://www.tiny.cloud/) | Rich text editing | ![TinyMCE](https://img.shields.io/badge/TinyMCE-0078D4?logo=tinyMCE&logoColor=white&style=for-the-badge) |
+| [HTML React Parser](https://www.npmjs.com/package/html-react-parser) | HTML parsing in React | ![HTML React Parser](https://img.shields.io/badge/HTML%20React%20Parser-F16529?logo=html5&logoColor=white&style=for-the-badge) |
+| [React Hook Form](https://react-hook-form.com/) | Form management | ![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990?logo=reacthookform&logoColor=white&style=for-the-badge) |
+| [npm](https://www.npmjs.com/) | Package manager | ![npm](https://img.shields.io/badge/npm-CB3837?logo=npm&logoColor=white&style=for-the-badge) |
 
 ---  
 
@@ -36,7 +40,7 @@ Blogger relies on the following dependencies:
 
 ### Prerequisites  
 - Node.js (v16 or higher)  
-- npm or yarn  
+- npm  
 
 ### Installation  
 1. Clone the repository:  
@@ -51,19 +55,11 @@ Blogger relies on the following dependencies:
    ```bash  
    npm install  
    ```  
-   or  
-   ```bash  
-   yarn install  
-   ```  
 4. Start the development server:  
    ```bash  
    npm start  
    ```  
-   or  
-   ```bash  
-   yarn start  
-   ```  
-5. Open your browser and visit [http://localhost:3000](http://localhost:3000) to see Blogger in action!  
+5. Open your browser and visit [http://localhost:5173](http://localhost:5173) to see Blogger in action!  
 
 ---  
 
